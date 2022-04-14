@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/kanto"
+        android:icon="@drawable/a"
+        android:title="@string/kanto"
+        />
+    <item
+        android:id="@+id/johto"
+        android:icon="@drawable/b"
+        android:title="@string/johto"
+        />
+    <item
+        android:id="@+id/hoenn"
+        android:icon="@drawable/a"
+        android:title="@string/hoenn"
+        />
+    <item
+        android:id="@+id/sinnoh"
+        android:icon="@drawable/b"
+        android:title="@string/sinnoh"
+        />
+    <item
+        android:id="@+id/teselia"
+        android:icon="@drawable/a"
+        android:title="@string/teselia"
+        />
+
+</menu>

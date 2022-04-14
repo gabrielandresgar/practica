@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.zerodayschool.gocommunity">
+
+    <uses-sdk tools:overrideLibrary="com.google.zxing.client.android" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+
+        android:allowBackup="true"
+        android:icon="@drawable/pika"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/pika"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar">
+        <activity android:name=".ReionalesActivity" android:screenOrientation="portrait"></activity>
+        <activity android:name=".CodigoPromoActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".ManualUso" android:screenOrientation="portrait"/>
+        <activity android:name=".GobateliteActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".DetalleActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".DefenderGymActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".PokeGalar" android:screenOrientation="portrait"/>
+        <activity android:name=".PokeAlola" android:screenOrientation="portrait"/>
+        <activity android:name=".PokeKalos" android:screenOrientation="portrait"/>
+        <activity android:name=".PokeTeselia" android:screenOrientation="portrait"/>
+        <activity android:name=".PokeSinnoh" android:screenOrientation="portrait"/>
+        <activity android:name=".PokeHoenn" android:screenOrientation="portrait"/>
+        <activity android:name=".PokeJoht" android:screenOrientation="portrait"/>
+        <activity android:name=".PokeKanto" android:screenOrientation="portrait"/>
+        <activity android:name=".GuiaEntrenadorActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".AjustesActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".AcercadeNosotrosActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".TrucosPokemonActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".NidosPokemonActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".AmigosGoActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".PvpActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".DatoPokemonActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".PerfilUsuarioActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".SplashScreenActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".RecuperarActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".TerminoCondiciones" android:screenOrientation="portrait"/>
+        <activity android:name=".RegistroActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".LoginActivity" android:screenOrientation="portrait"/>
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.zerodayschool.gocommunity"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+    </application>
+
+</manifest>

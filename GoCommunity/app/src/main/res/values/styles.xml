@@ -1,0 +1,26 @@
+<resources>
+
+    <style name="Widget.Theme.GoCommunity.ButtonBar.Fullscreen" parent="">
+        <item name="android:background">@color/black_overlay</item>
+        <item name="android:buttonBarStyle">?android:attr/buttonBarStyle</item>
+    </style>
+
+    <string name="nombrepokemon">Nombre del Pokemon</string>
+    <string name="coordenadas">Coordenadas del pokemon</string>
+    <string name="pcmaximo">Pc Max</string>
+    <string name="datopokemon">Dato Pokemon</string>
+    <string name="kanto">Kanto</string>
+    <string name="johto">Johto</string>
+    <string name="hoenn">Hoenn</string>
+    <string name="sinnoh">Sinnoh</string>
+    <string name="teselia">Teselia</string>
+    <string name="kalos">Kalos</string>
+    <string name="galar">Galar</string>
+    <string name="titulo">Titulo</string>
+    <string name="uso">Uso del juego</string>
+    <string name="top">Top pokemon</string>
+    <string name="nombrepromo">Nombre</string>
+    <string name="codigopromo">Codigo</string>
+    <string name="coordenadasregio">Coordenadas</string>
+    <string name="nombreregio">Nombre</string>
+</resources>

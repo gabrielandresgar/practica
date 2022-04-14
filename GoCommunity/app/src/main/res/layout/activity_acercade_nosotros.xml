@@ -1,0 +1,149 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AcercadeNosotrosActivity"
+    android:background="@drawable/fondo_azul">
+
+    <TextView
+        android:id="@+id/mision"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:text="MISION"
+        android:textAlignment="center"
+        android:textColor="@color/color2"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/convision"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/conmision"
+        android:layout_width="363dp"
+        android:layout_height="122dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:text="Brindar conocimientos informaticos basicos, medios y avanzados a traves
+        de cursos que generan aprendizajes implementando la innovacion, avalados y certificados
+        por distintas instituciones reconocidas, a la vez ofrecer servicios tecnologicos satisfaciendo
+        las necesidades del cliente."
+        android:textAlignment="center"
+        android:textColor="@color/color2"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mision" />
+
+    <TextView
+        android:id="@+id/vision"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:text="VISION"
+        android:textAlignment="center"
+        android:textColor="@color/color2"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/conmision" />
+
+    <TextView
+        android:id="@+id/convision"
+        android:layout_width="359dp"
+        android:layout_height="86dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:text="Para el 2005 ser reconocida entre las mejores empresas a nivel
+        nacional e internacional en el mercado por su calidad en servicios academicos y
+        generales brindados con responsabilidad social."
+        android:textAlignment="center"
+        android:textColor="@color/color2"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/vision" />
+
+    <TextView
+        android:id="@+id/txtLabel"
+        android:layout_width="322dp"
+        android:layout_height="51dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:text="SIGUENOS EN NUESTRAS\n REDES SOCILES"
+        android:textAlignment="center"
+        android:textColor="@color/color2"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/convision" />
+
+    <ImageView
+        android:id="@+id/facebook"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="40dp"
+        app:layout_constraintEnd_toStartOf="@+id/instagram"
+        app:layout_constraintTop_toBottomOf="@+id/txtLabel"
+        app:srcCompat="@drawable/facebook" />
+
+    <ImageView
+        android:id="@+id/instagram"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtLabel"
+        app:srcCompat="@drawable/instagram" />
+
+    <ImageView
+        android:id="@+id/youtube"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toEndOf="@+id/instagram"
+        app:layout_constraintTop_toBottomOf="@+id/txtLabel"
+        app:srcCompat="@drawable/youtube" />
+
+    <ImageView
+        android:id="@+id/telegram"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="40dp"
+        app:layout_constraintEnd_toStartOf="@+id/twitter"
+        app:layout_constraintTop_toBottomOf="@+id/facebook"
+        app:srcCompat="@drawable/telegram" />
+
+    <ImageView
+        android:id="@+id/twitter"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/instagram"
+        app:srcCompat="@drawable/twitter" />
+
+    <ImageView
+        android:id="@+id/whatsapp"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toEndOf="@+id/twitter"
+        app:layout_constraintTop_toBottomOf="@+id/youtube"
+        app:srcCompat="@drawable/whatsap" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <item
+        android:id="@+id/teselia"
+        android:icon="@drawable/a"
+        android:title="@string/teselia"
+        />
+    <item
+        android:id="@+id/kalos"
+        android:icon="@drawable/b"
+        android:title="@string/kalos"
+        />
+    <item
+        android:id="@+id/galar"
+        android:icon="@drawable/a"
+        android:title="@string/galar"
+        />
+</menu>

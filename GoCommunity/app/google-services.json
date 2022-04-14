@@ -1,0 +1,64 @@
+{
+  "project_info": {
+    "project_number": "664398564035",
+    "firebase_url": "https://gocommunity-9b762-default-rtdb.firebaseio.com",
+    "project_id": "gocommunity-9b762",
+    "storage_bucket": "gocommunity-9b762.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:664398564035:android:50c3be621eac3895ba3076",
+        "android_client_info": {
+          "package_name": "com.zerodayschool.gocommunity"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "664398564035-44gkqsubgbreef4bmjphlue418hj1mlc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.zerodayschool.gocommunity",
+            "certificate_hash": "b83d7fddb8b66f92b9574e41fe2af6593258f723"
+          }
+        },
+        {
+          "client_id": "664398564035-ffgcnom0tmavqtha5rhktchvqf8d2tdd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.zerodayschool.gocommunity",
+            "certificate_hash": "d7732f04ae0d3a0684ca38a9891de1d4813af6a0"
+          }
+        },
+        {
+          "client_id": "664398564035-qd660uo2l86hc0l7pu1m0nkb7qfe1gu5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.zerodayschool.gocommunity",
+            "certificate_hash": "172f24450a04bacd08b53c04c5e74460d2175dbb"
+          }
+        },
+        {
+          "client_id": "664398564035-qt7mcq0c09c4u56n2doilch4lr100t01.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4vRzbiXNHlBN-iFI77_f9Fn6UbG0scVI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "664398564035-qt7mcq0c09c4u56n2doilch4lr100t01.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
